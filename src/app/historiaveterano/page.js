@@ -60,7 +60,7 @@ export default function HistoriaVeterano() {
   const { coordinates } = veteran.geometry;
   const [Longitud, Latitud] = coordinates;
 
-  const baseUrl = "https://www.bienestar.mil.ar/malvinas";
+  const baseUrl = "https://www.bienestar.mil.ar/mapa_interactivo/";
   const defaultPhotoUrl = "/images/soldado2.png"; // Ruta de la imagen por defecto
 
   function processUrl(url, type) {
@@ -79,6 +79,7 @@ export default function HistoriaVeterano() {
       } else {
         url += ".png";
       }
+      return `/${url.replace(/^\/+/, "")}`;
     }
 
     return url;
@@ -112,7 +113,7 @@ export default function HistoriaVeterano() {
               <div
                 style={{ width: "128px", height: "128px", marginRight: "15px" }}
               >
-                <Image
+                <img
                   src={photoUrl}
                   className="rounded-circle"
                   alt={Nombre}

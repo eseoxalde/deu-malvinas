@@ -9,12 +9,18 @@ const nextConfig = {
       {
         source: "/api/proxy/:path*",
         destination: "/geojson/:path*",
-        /*destination: 'https://www.bienestar.mil.ar/malvinas/geojson/:path*', // Proxy to external URL*/
       },
     ];
   },
   images: {
-    domains: ["www.bienestar.mil.ar"],
+    domains: ["www.bienestar.mil.ar"], // Permitir imágenes de este dominio
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.bienestar.mil.ar",
+        pathname: "/mapa_interactivo/fotos/**", // Permitir imágenes en esta ruta
+      },
+    ],
   },
 };
 
