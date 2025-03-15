@@ -18,7 +18,6 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "www.bienestar.mil.ar",
-        pathname: "/mapa_interactivo/fotos/**", // Permitir imágenes en esta ruta
       },
     ],
   },
