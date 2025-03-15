@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useGeoJsonData } from "../hook/useGeoJsonData";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import ScrollToTop from "../components/ScrollToTop";
 
 function processUrl(url) {
   if (url.startsWith(".")) {
@@ -126,6 +127,9 @@ export default function VeteranosPage() {
             {t("no_results")}
           </p>
         )}
+      </div>
+      <div>
+        <ScrollToTop />
       </div>
     </main>
   );
