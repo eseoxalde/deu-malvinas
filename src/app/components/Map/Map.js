@@ -101,8 +101,14 @@ export default function Map() {
               feature.geometry.coordinates[0],
             ]}
             icon={custom_marker}
+            aria-labelledby={`marker-popup-${feature.properties.Nombre}`}
+            role="button"
           >
-            <Popup>
+            <Popup
+              id={`marker-popup-${feature.properties.Nombre}`}
+              role="dialog"
+              aria-live="assertive"
+            >
               <div>
                 <h3>{feature.properties.Nombre}</h3>
                 <p aria-label={t("rank_aria")}>
