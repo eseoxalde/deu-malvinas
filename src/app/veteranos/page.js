@@ -30,10 +30,9 @@ export default function VeteranosPage() {
   const veterans = useGeoJsonData();
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredVeterans, setFilteredVeterans] = useState([]);
-  const baseUrl = "https://www.bienestar.mil.ar/malvinas";
+  const baseUrl = "https://www.bienestar.mil.ar/mapa_interactivo/";
   const defaultPhotoUrl = "soldado2.png";
   const t = useTranslations("VeteransPage");
-
   const router = useRouter();
 
   useEffect(() => {
@@ -82,7 +81,9 @@ export default function VeteranosPage() {
             const props = veteran.properties;
             const photoUrl =
               props && props.Foto
-                ? `${baseUrl}${processUrl(props.Foto)}`
+                ? `${baseUrl.replace(/\/$/, "")}/${processUrl(
+                    props.Foto
+                  ).replace(/^\//, "")}`
                 : defaultPhotoUrl;
 
             return (
@@ -92,7 +93,7 @@ export default function VeteranosPage() {
                     <>
                       <div className="w-100 d-flex justify-content-center align-items-center">
                         <div style={{ width: "128px", height: "128px" }}>
-                          <Image
+                          <img
                             src={photoUrl}
                             className="rounded-circle"
                             alt={`${props.Nombre}, ${props.Escalafon}`}
