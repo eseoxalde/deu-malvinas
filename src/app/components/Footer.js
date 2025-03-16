@@ -19,14 +19,17 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-4 d-flex flex-column align-items-center align-items-md-start mb-4 mb-md-0">
             <Link href="/" legacyBehavior>
-              <a className="d-flex align-items-center mb-3 navbar-brand">
+              <a
+                className="d-flex align-items-center mb-3 navbar-brand"
+                title={t("inicio_title")}
+              >
                 <div className="text-start">
                   <span className="d-block">{t("title")}</span>
                   <span className="d-block">{t("malvinas")}</span>
                 </div>
                 <Image
                   src="/casco.svg"
-                  alt={t("logo_alt")}
+                  alt=""
                   width={50}
                   height={50}
                   className="ml-2"
@@ -43,6 +46,7 @@ export default function Footer() {
                     className={`${styles.customLink} ${
                       pathname === "/veteranos" ? ` ${styles.active}` : ""
                     }`}
+                    title={t("veteranos_title")}
                   >
                     {t("veterans")}
                   </a>
@@ -54,6 +58,7 @@ export default function Footer() {
                     className={`${styles.customLink} ${
                       pathname === "/mapa" ? ` ${styles.active}` : ""
                     }`}
+                    title={t("mapa_title")}
                   >
                     {t("map")}
                   </a>
@@ -65,6 +70,7 @@ export default function Footer() {
                     className={`${styles.customLink} ${
                       pathname === "/historia" ? ` ${styles.active}` : ""
                     }`}
+                    title={t("historia_title")}
                   >
                     {t("history")}
                   </a>

@@ -23,12 +23,7 @@ export default function Header() {
           <Link href="/" legacyBehavior>
             <a className="navbar-brand" title={t("title_aria")}>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <Image
-                  src="/casco.svg"
-                  alt={t("logo_alt")}
-                  width={50}
-                  height={50}
-                />
+                <Image src="/casco.svg" alt="" width={50} height={50} />
                 <div className={`ms-2 ${styles.customNavLink}`}>
                   <span className="d-block">{t("title")}</span>
                   <span className="d-block">{t("malvinas")}</span>

@@ -4,30 +4,34 @@
     "title": "Memorias de",
     "malvinas": "Malvinas",
     "menu_aria": "Activar navegación",
-    "logo_alt": "Logo de pagina - Memorias de Malvinas",
+    "logo_alt": "Memorias de Malvinas",
     "home": "Inicio",
-    "home_title": "Ir al inicio de la pagina",
+    "home_title": "Volver a la página de Inicio",
     "veterans": "Veteranos",
     "veterans_title": "Ver y buscar a los soldados que participaron del conflicto",
     "map": "Mapa",
     "map_title": "Visualizar mapa de Las Malvinas",
     "history": "Historia",
-    "history_title": "Ver la historia del conflicto",
+    "history_title": "Explorar la historia del conflicto",
     "resolutions": "Resoluciones",
-    "resolutions_title": "Informarse sobre las resoluciones",
+    "resolutions_title": "Ver resoluciones de la ONU",
     "about": "Nosotros",
-    "about_title": "Sobre nosotros",
+    "about_title": "Conocer más sobre nosotros",
     "configuration": "Configuración",
-    "configuration_title": "Configuracion de la pagina (idiomas)"
+    "configuration_title": "Configuración de la pagina"
   },
   "Footer": {
+    "inicio_title": "Volver a la página de Inicio",
     "title": "Memorias de",
     "malvinas": "Malvinas",
-    "logo_alt": "Logo de pagina - Memorias de Malvinas",
+    "logo_alt": "Memorias de Malvinas",
     "first_section": "Enlaces rápidos",
     "history": "Historia",
+    "historia_title": "Explorar la historia del conflicto",
     "veterans": "Veteranos",
+    "veteranos_title": "Ver y buscar a los soldados que participaron del conflicto",
     "map": "Mapa",
+    "mapa_title": "Visualizar mapa de Las Malvinas",
     "second_section": "Contacto"
   },
   "LocaleSwitcher": {
@@ -73,7 +77,7 @@
     "place_of_birth_aria": "Lugar de nacimiento",
     "date_of_birth": "Fecha de nacimiento:",
     "date_of_birth_aria": "Fecha de nacimiento",
-    "no_results": "Sin resultados..."
+    "no_results": "Sin resultados."
   },
   "MapPage": {
     "title": "Mapa interactivo",
@@ -82,27 +86,21 @@
     "usage_description_one": "Al hacer click en la ubicación de alguno de los caídos, se puede acceder a un resumen de la reseña biográfica que incluye apellido y nombre, rango, lugar y fecha de nacimiento.",
     "usage_description_two": "También es posible buscar por el nombre y/o apellido para ubicarlos rápidamente.",
     "map_loading": "Cargando mapa...",
-    "map_error": "Hubo un error al cargar el mapa..."
+    "map_error": "Hubo un error al cargar el mapa."
   },
   "HomePage": {
     "text_one": "Descubre la memoria viva de los héroes de las Malvinas. Explora este recurso para una comprensión más profunda de un evento histórico crucial para Argentina.",
     "text_two": "A través de mapas detallados y perfiles individuales, podrás sumergirte en las experiencias de los veteranos, comprendiendo mejor el valor y la resiliencia que demostraron. Navega por las historias de estos héroes, conoce sus trayectorias y rinde homenaje a su legado inmortal.",
-    "image_one_alt": "Mapa presentacion de la memoria viva de los Héroes de Malvinas",
+    "image_one_alt": "Mapa presentacion de Las Islas Malvinas con ejemplo de soldados caídos en el conflicto",
     "title": "Veteranos que lucharon en Malvinas",
-    "image_two_alt": "Logo representacion de un veterano",
     "images_title": "Galería de fotos de soldados argentinos",
-    "image_three_alt": "Soldados argentinos en una trinchera en Puerto Yapeyú",
-    "image_four_alt": "Soldados de las tropas argentinas. Foto: Archivo Telam",
-    "image_five_alt": "Campamento de una patrulla en cercanías del aeropuerto de la ciudad Télam 162",
+    "image_three_alt": "Cuatro soldados argentinos en una trinchera en Puerto Yapeyú sosteniendo un mortero y un rifle FAL",
+    "image_four_alt": "Tres soldados de las tropas argentinas con rifles FAL en un refugio improvisado. Foto: Archivo Telam",
+    "image_five_alt": "Soldado argentino sosteniendo una Grease Gun en un campamento de una patrulla en cercanías del aeropuerto de la ciudad Télam 162",
     "conflict_title": "Introducción al conflicto",
-    "image_six_alt": "Logo representacion de un veterano y la bandera de Argentina",
+    "image_six_alt": "Logo de sección con un soldado saludando y la bandera argentina en forma de isla",
     "conflict_description": "El conflicto armado entre Argentina y el Reino Unido por las Islas Malvinas en 1982 resultó en la trágica pérdida de muchas vidas. En nuestro país, la Guerra de Malvinas es considerada un evento crucial que marcó un antes y un después en la historia, causando una gran conmoción social y política, y dejando una profunda huella en la identidad nacional. La memoria de los soldados caídos en la guerra es de gran importancia para los argentinos, siendo considerada un símbolo de la lucha por la soberanía y la dignidad nacional.",
-    "image_one_describedby": "Presentacion del mapa de Malvinas solo como ejemplo de lo que se puede encontrar en la seccion de Mapa. El mapa se ubica justo en el centro de las dos islas que componen Las Malvinas con marcas de soldados representando el lugar en el este fallecio.",
-    "image_two_describedby": "Dibujo a modo de logo de seccion que representa a un soldado vendado",
-    "image_three_describedby": "En la imagen se puede apreciar cuatro soldados Argentinos. El de mas a la izquierda esta armado con un rifle FAL reglamentario de la epoca. Lo otros tres sostienen un mortero y cartucho del mismo. Todos estan sonriendo. Se puede apreciar montañas y el mar de fondo",
-    "image_four_describedby": "En la imagen se puede apreciar tres soldados Argentinos. Todo sostienen su rifle FAL reglamentario de la epoca. Estan muy abrigados, debajo del techo de un refugio improvisado",
-    "image_five_describedby": "En la imagen se puede apreciar un soldado Argentino muy abrigado. Este sostiene una Grease Gun y se encuentra junto a cinco carpas y rodeado de nieve",
-    "image_six_describedby": "Dibujo a modo de logo de seccion que representa a un soldado a la izquierda realizando un saludo militar, y a la derecha la bandera Argentina en forma de isla"
+    "image_one_describedby": "Presentacion del mapa de Malvinas solo como ejemplo de lo que se puede encontrar en la seccion de Mapa. El mapa se ubica justo en el centro de las dos islas que componen Las Malvinas con marcas de soldados representando el lugar en el este fallecio."
   },
   "VeteransPage": {
     "title": "Historias de valor en Las Malvinas",
@@ -110,7 +108,7 @@
     "search_aria": "Escribe el nombre del veterano aquí para facilitar su búsqueda",
     "more_info_btn_aria": "Más información sobre {name}",
     "more_info_btn": "Más información",
-    "no_results": "Sin resultados..."
+    "no_results": "Sin resultados."
   },
   "VeteranHistoryPage": {
     "loading": "Cargando datos del veterano...",
