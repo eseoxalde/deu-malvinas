@@ -81,6 +81,7 @@
     "usage_title": "How to use the map",
     "usage_description_one": "By clicking on the location of one of the fallen, you can access a summary of the biographical sketch including surname and name, rank, place and date of birth.",
     "usage_description_two": "It is also possible to search by first and/or last name to locate them quickly.",
+    "usage_description_three":"Keyboard usage: press the Tab key to cycle between the soldiers. Popups open and close with the Enter key. To exit the map, use the Esc key.",
     "map_loading": "Loading map...",
     "map_error": "There was an error loading the map..."
   },

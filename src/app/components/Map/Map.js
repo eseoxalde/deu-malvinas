@@ -65,8 +65,27 @@ export default function Map() {
     }
   }, [searchTerm, data]);
 
+  // Detectar la tecla Esc y salir del mapa
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        const exitElement = document.getElementById("menu-principal");
+        if (exitElement) {
+          exitElement.focus();
+        }
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   return (
     <div className="titulo container vh-100 vw-100 d-flex flex-column justify-content-center align-items-center">
+      <a href="/mapa" id="menu-principal" className="visually-hidden-focusable">
+        Ir al inicio de la página
+      </a>
+
       <div className="container">
         <input
           type="text"

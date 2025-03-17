@@ -24,11 +24,14 @@ export default function MapaPage() {
   return (
     <main role="main" className="main">
       <section className={"container-md"} aria-labelledby="map-section-title">
-        <h1 id="map-section-title" className={`text-center subtitle my-5`}>{t("title")}</h1>
+        <h1 id="map-section-title" className={`text-center subtitle my-5`}>
+          {t("title")}
+        </h1>
         <p>{t("description")}</p>
         <h2 className="titulo">{t("usage_title")}</h2>
         <p>{t("usage_description_one")}</p>
         <p>{t("usage_description_two")}</p>
+        <p>{t("usage_description_three")}</p>
       </section>
       <section aria-labelledby="map-section-title">
         <Map />

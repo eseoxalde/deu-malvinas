@@ -81,6 +81,7 @@
     "usage_title": "Come usare la mappa",
     "usage_description_one": "Cliccando sulla posizione di uno dei caduti, è possibile accedere a un riassunto della biografia che include cognome e nome, grado, luogo e data di nascita.",
     "usage_description_two": "È anche possibile cercare per nome e/o cognome per localizzarli rapidamente.",
+    "usage_description_three":"Uso della tastiera: premi il tasto Tab per cambiare tra i combattenti. I popup si aprono e si chiudono con il tasto Enter. Per uscire dalla mappa, usa il tasto Esc.",
     "map_loading": "Caricamento della mappa...",
     "map_error": "Si è verificato un errore durante il caricamento della mappa..."
   },

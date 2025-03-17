@@ -81,6 +81,7 @@
     "usage_title": "Comment utiliser la carte",
     "usage_description_one": "En cliquant sur l'emplacement de l'un des tombés, vous pouvez accéder à un résumé de la biographie incluant le nom et le prénom, le grade, le lieu et la date de naissance.",
     "usage_description_two": "Il est également possible de rechercher par prénom et/ou nom de famille pour les localiser rapidement.",
+    "usage_description_three":"Utilisation du clavier : appuyez sur la touche Tab pour naviguer entre les combattants. Les popups s'ouvrent et se ferment avec la touche Entrée. Pour quitter la carte, utilisez la touche Échap.",
     "map_loading": "Chargement de la carte...",
     "map_error": "Une erreur s'est produite lors du chargement de la carte..."
   },

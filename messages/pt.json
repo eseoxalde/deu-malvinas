@@ -81,6 +81,7 @@
     "usage_title": "Como usar o mapa",
     "usage_description_one": "Clicando na localização de um dos caídos, você pode acessar um resumo da biografia que inclui sobrenome e nome, patente, local e data de nascimento.",
     "usage_description_two": "Também é possível buscar pelo nome e/ou sobrenome para localizá-los rapidamente.",
+    "usage_description_three":"Uso do teclado: pressione a tecla Tab para alternar entre os combatentes. Os popups abrem e fecham com a tecla Enter. Para sair do mapa, use a tecla Esc.",
     "map_loading": "Carregando o mapa...",
     "map_error": "Ocorreu um erro ao carregar o mapa..."
   },

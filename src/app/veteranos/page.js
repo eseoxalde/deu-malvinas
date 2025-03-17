@@ -54,6 +54,17 @@ export default function VeteranosPage() {
     }
   }, [searchTerm, veterans]);
 
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        router.push("/veteranos");
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [router]);
+
   const handleMoreInfo = (veteran) => {
     localStorage.setItem("veteran", JSON.stringify(veteran));
     router.push("/historiaveterano");

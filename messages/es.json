@@ -85,6 +85,7 @@
     "usage_title": "Forma de usar el mapa",
     "usage_description_one": "Al hacer click en la ubicación de alguno de los caídos, se puede acceder a un resumen de la reseña biográfica que incluye apellido y nombre, rango, lugar y fecha de nacimiento.",
     "usage_description_two": "También es posible buscar por el nombre y/o apellido para ubicarlos rápidamente.",
+    "usage_description_three":"Uso del teclado: presiona la tecla Tab para cambiar entre los combatientes. Los popups se abren y cierran con la tecla Enter. Para salir del mapa, usa la tecla Esc",
     "map_loading": "Cargando mapa...",
     "map_error": "Hubo un error al cargar el mapa."
   },
