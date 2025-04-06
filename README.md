@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🗺️ Historias de Malvinas
 
-## Getting Started
+Este es un sitio web interactivo desarrollado con [Next.js](https://nextjs.org/) y [React](https://reactjs.org/), en el marco de la materia **Diseño Centrado en el Usuario** del a Facultad de Informática de la Universidad Nacional de La Plata. El objetivo del proyecto es visibilizar y preservar las historias de los excombatientes de la Guerra de Malvinas a través de recursos visuales e informativos accesibles.
 
-First, run the development server:
+El sitio cuenta con un mapa interactivo, una línea de tiempo de eventos históricos, resoluciones internacionales, y distintas secciones temáticas que invitan a reflexionar sobre la memoria colectiva.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- **Framework**: Next.js + React
+- **Lenguaje**: TypeScript
+- **UI y Estilos**: Bootstrap, Lucide React
+- **Mapas**: Leaflet, React Leaflet, Leaflet Default Icon Compatibility
+- **Internacionalización**: Next-Intl
+- **Desarrollo**: ESLint, http-proxy-middleware, Next.js CORS
+
+---
+
+## 🧪 Instalación y uso local
+
+Para correr el servidor de desarrollo localmente:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrí [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🐳 Docker
 
-## Learn More
+Podés correr este proyecto en un contenedor Docker.
 
-To learn more about Next.js, take a look at the following resources:
+### 🔧 Build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+docker build -t historias-malvinas .
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🚀 Run
 
-## Deploy on Vercel
+```bash
+docker run -p 3000:3000 historias-malvinas
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Después accedé desde el navegador a: [http://localhost:3000](http://localhost:3000)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## 🌐 Despliegue
+
+El sitio se encuentra desplegado en **Vercel**:  
+👉 [https://deu-malvinas-nine.vercel.app/](https://deu-malvinas-nine.vercel.app/)
+
+---
+
+## 🧑‍💻 Autores
+
+- Ese Kai Oxalde Apellido — [@eseoxalde](https://github.com/eseoxalde)
+
+Proyecto académico — **Diseño Centrado en el Usuario**  
+Facultad de [Informática]
+
+---
+
+## 📄 Licencia
+
+Este proyecto se presenta con fines académicos. Sin fines comerciales.
