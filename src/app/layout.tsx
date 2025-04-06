@@ -11,8 +11,8 @@ import { NextIntlClientProvider } from "next-intl";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Historias de Malvinas",
-  description: "DEU 2024 - Grupo X",
+  title: "Memorias de Malvinas",
+  description: "DEU 2024",
 };
 
 export default async function RootLayout({

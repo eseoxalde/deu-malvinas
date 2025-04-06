@@ -1,4 +1,4 @@
-# 🗺️ Historias de Malvinas
+# 🗺️ Memorias de Malvinas
 
 Este es un sitio web interactivo desarrollado con [Next.js](https://nextjs.org/) y [React](https://reactjs.org/), en el marco de la materia **Diseño Centrado en el Usuario** del a Facultad de Informática de la Universidad Nacional de La Plata. El objetivo del proyecto es visibilizar y preservar las historias de los excombatientes de la Guerra de Malvinas a través de recursos visuales e informativos accesibles.
 
